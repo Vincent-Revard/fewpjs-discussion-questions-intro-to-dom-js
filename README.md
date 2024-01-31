@@ -10,10 +10,18 @@
 
 Answer the following questions with your group:
 
-- How do you link a JavaScript file to an HTML document?
-- How do you link a CSS file to an HTML document?
-- What are the roles of HTML, CSS, and JavaScript on a webpage?
+- How do you link a JavaScript file to an HTML document? 
+<script src="index.js"> </script> at the bottom of the webpage or in the head with the <script defer src="index.js"> </script>
+- How do you link a CSS file to an HTML document? 
+within the <head></head> tags: <link href="styles.css" rel=”stylesheet” type=”text/css” >
+- What are the roles of HTML, CSS, and JavaScript on a webpage? 
+HTML is the backbone / structure of the webpage
+CSS is the styling and formatting of that webpage 
+Javascript is what brings the webpage to life through "automation" and can be edited/maniuplated via JS/DOM 
 - What is the DOM? How is it related to HTML, CSS, and JavaScript?
+"DOM is the DNA of the webpage" 
+DOM is the buffer between what we configure within the HTML/css/JS files that then displays the contents of what we created 
+
 
 ## Exercise: Basic Frontend File Setup
 
